@@ -1,6 +1,6 @@
 FROM alpine:3.16 AS downloader
 
-ARG POCKETBASE_VERSION=0.7.10
+ARG POCKETBASE_VERSION=0.10.1
 ARG PLATFORM=linux_amd64
 
 # Download Pocketbase and install it
